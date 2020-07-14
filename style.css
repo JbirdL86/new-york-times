@@ -1,0 +1,116 @@
+body{
+	height: 100vh;
+	width: 100%;
+	background-color: aquamarine;
+	
+}
+
+figcaption{
+	color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin: 10px 20px 0;
+    text-align: left;
+}
+
+span{
+	font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+h1{
+	margin: 0 auto;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+	width: 600px;
+	margin-bottom: 1rem;
+}
+
+
+main{
+	height: 100vh;
+	width: 100%;
+	background-color: bisque;
+	margin-top: 40px;
+}
+
+nav{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 46px;
+}
+
+.nav-flex{
+	display: flex;
+	align-items: center;
+}
+
+.navbar{
+	background-color: white;
+	height: inherit;
+	justify-content: space-between;
+	margin: 0 150px;
+}
+
+.nav-left > button{
+    padding: 8px 12px 9px 12px;
+    margin-right: 8px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.nav-center{
+	height: 30px;
+}
+
+.nav-center > div{
+	padding: 2.5px;
+	cursor: pointer;
+}
+
+.nav-right{
+	height: 30px;
+	margin: 0 10px;
+}
+
+.nav-right > button{
+	background-color: #567b95;
+	color: white;
+	height: 30px;
+	font-size: 10px;
+	font-weight: 550;
+	border: 1px solid #567b95;
+	border-radius: 10%;
+	cursor: pointer;
+}
+
+.story{
+	margin-top: 80px;
+}
+
+.img-wrapper{
+	min-width: 650px;
+    max-width: 1004px;
+    margin: 0 auto;
+}
+
+.img-wrapper > img{
+	min-width: 650px;
+    width: 100%;
+}
+
+.caption{
+	margin-left: 0;
+	max-width: 900px;
+	color: #666;
+}
+
+.quote{
+	color: #888;
+	max-width: 100%;
+	margin-left: 0;
+}
