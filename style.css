@@ -31,7 +31,14 @@ body{
 	width: 100%;
 	/*
 	background-color: aquamarine;*/
-	
+	margin: 0;
+	border: 0;
+	padding: 0;
+	color: #333;
+}
+a{
+ color: #333;
+ text-decoration: none;
 }
 
 span > a{
@@ -43,10 +50,11 @@ figcaption{
 	color: #666;
     font-family: 'imperial',georgia,'times new roman',times,serif;
     margin: 10px 20px 0 20px;
-    text-align: left;
+	text-align: left;
+	line-height: 1;
 }
 
-figcaption span{
+.caption span{
 	color: #666;
     font-family: 'imperial',georgia,'times new roman',times,serif;
     margin-right: 7px;
@@ -71,21 +79,23 @@ h1{
 
 
 main{
-	height: 100vh;
-	width: 100%;/*
-	background-color: bisque;*/
+	width: 100%;
 	margin-top: 42px;
 }
 
+footer{
+	width: 100%;
+}
 .nav-wrapper{
 	background-color: white;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	height: 42px;
-	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+	font-family: 'cheltenham',georgia,'times new roman',times,serif;
     box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
-    border-bottom: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	z-index: 900;
 }
 
 .nav-flex{
@@ -141,6 +151,7 @@ button{
 	min-width: 650px;
     max-width: 1200px;
 	margin: 25px auto 45px auto;
+	line-height: 0;
 }
 
 .caption{
@@ -194,7 +205,7 @@ letter-spacing: 0.02em;
 font-size: 0.9375rem;
 line-height: 1.125rem;
 margin: 0;
-font-family: nyt-franklin,helvetica,arial,sans-serif;
+font-family: 'franklin',helvetica,arial,sans-serif;
 font-weight: 700;
 color: #333;
 }
@@ -206,7 +217,7 @@ color: #333;
 }
 
 .link-time{
-	font-family: nyt-franklin,helvetica,arial,sans-serif;
+	font-family: 'franklin',helvetica,arial,sans-serif;
 font-weight: 500;
 color: #333;
 font-size: 0.8125rem;
@@ -281,7 +292,7 @@ i > span{
 	cursor: pointer;
 	display: inline-flex;
 	flex-direction: column;
-	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-family: 'franklin', helvetica, arial, sans-serif;
 	font-size: 0.75rem;
 	font-weight: 500;
 	height: 25px;
@@ -345,7 +356,9 @@ margin-top: auto;
 	height: 100%;
 	width: 1200px;
 	display: flex;
-    margin: 0 auto;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 20px 3% 0;
 }
 
 .content{
@@ -366,7 +379,7 @@ line-height: 1.875rem;
 .signup{
 	max-width: 600px;
     margin: 25px auto;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-family: 'franklin', helvetica, arial, sans-serif;
     font-weight: 700;
     font-size: 15px;
     line-height: 19px;
@@ -415,7 +428,7 @@ flex-direction: row;
 }
 
 .editor-container > h2{
-	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-family: franklin, helvetica, arial, sans-serif;
 font-weight: 700;
 color: rgb(0, 0, 0);
 border-bottom: 1px solid rgb(226, 226, 226);
@@ -446,7 +459,7 @@ margin-left: 0px;
 .sugested-header{
 	width: calc(100% - 85px);
 margin: auto 0px auto 10px;
-font-family: nyt-cheltenham-small, georgia, "times new roman";
+font-family: 'cheltenham', georgia, "times new roman";
 font-size: 14px;
 line-height: 17px;
 color: rgb(51, 51, 51);
@@ -481,7 +494,7 @@ line-height: 18px;
 line-height: 1.125rem;
 font-weight: 400;
 font-style: normal;
-font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+font-family: 'cheltenham',georgia,times new roman,times,serif;
 color: #666;
 margin-bottom: 0;
 padding-right: 200px;
@@ -500,7 +513,7 @@ padding-right: 200px;
 }
 
 .floated-content > p{
-	font-family: nyt-franklin,arial,helvetica,sans-serif;
+	font-family: 'franklin',arial,helvetica,sans-serif;
 font-size: 14px;
 line-height: 17px;
 font-weight: 300;
@@ -574,7 +587,8 @@ line-height: 0;
     line-height: 1.125rem;
     font-weight: 500;
     font-style: normal;
-    font-family: nyt-franklin,arial,helvetica,sans-serif;
+	font-family: 'franklin',arial,helvetica,sans-serif;
+	color: #333;
 }
 
 .media-container{
@@ -602,7 +616,7 @@ line-height: 0;
 }
 
 .article-footer{
-	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-family: 'franklin', helvetica, arial, sans-serif;
 font-size: 0.75rem;
 line-height: 1rem;
 width: calc(100% - 40px);
@@ -630,7 +644,7 @@ border: 1px solid rgb(50, 104, 145);
 border-radius: 3px;
 color: white;
 display: block;
-font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-family: 'franklin', helvetica, arial, sans-serif;
 font-size: 0.8125rem;
 font-weight: 600;
 letter-spacing: 0.05em;
@@ -653,7 +667,6 @@ width: 100%;
 }
 
 .grid-wrapper{
-	padding: 20px 3% 0 3%;
 	margin: 45px auto 0 auto;
 	border-top: medium none;
 }
@@ -661,9 +674,9 @@ width: 100%;
 .grid-container{
 	display: grid;
 	grid-template-areas: 
-	  "main nav"
 	  "main nav";
 	grid-gap: 30px;
+	margin-bottom: 30px;
 }
 
 .main-column{
@@ -672,6 +685,7 @@ width: 100%;
 
 .nav-column{
 	grid-area: nav;
+	width: 320px;
 }
 
 .inner-grid{
@@ -681,17 +695,19 @@ width: 100%;
 	  "item1 item2 item3"
 	  "item4 item5 item6" ;
 	grid-gap: 20px;
+	margin-bottom: 30px;
 }
 
 .inner-header{
 	grid-area: header;
 	border-top: 1px solid rgb(0, 0, 0);
 	padding-top: 15px;
+	font-weight: 700;
 }
 
 .item-shaper{
   width: 233px;
-  height: 231px;
+  height: 100%;
 }
 
 .thumbnail-container{
@@ -703,6 +719,44 @@ width: 100%;
 	height: 100%;
 }
 
+.thumbnail-caption{
+	margin: 3px 0 0 0;
+    min-height: 12px;
+	text-align: right;
+	line-height: 0;
+}
+
+.thumbnail-caption span{
+	padding-bottom: 4px;
+	font-size: 0.5rem;
+	text-transform: none;
+	line-height: 1;
+}
+
+.thumbnail-text{
+	padding-left: 0px;
+	padding-right: 10px;
+	min-width: 150px;
+	font-size: .7rem;
+}
+
+.thumbnail-text > div{
+	width: 60px;
+    height: 22px;
+    margin-bottom: 6px;
+}
+
+.thumbnail-text > div >img{
+	width: 100%;
+	height: 100%;
+}
+.thumbnail-header{
+	font-size: .95rem;
+	font-weight: 700;
+	line-height: 22px;
+	color: #444;
+}
+
 .item1{
 
 }
@@ -712,7 +766,8 @@ width: 100%;
 }
 
 .item3{
-	
+	height: auto;
+	background-color: #f6f6f6;
 }
 
 .item4{
@@ -725,4 +780,46 @@ width: 100%;
 
 .item6{
 	
+}
+
+.item3 > .thumbnail-text{
+	padding-left: 10px;
+
+}
+
+.sugested-articles{
+	border-top: 1px solid rgb(226, 226, 226);
+list-style: outside none none;
+margin-top: 15px;
+}
+
+.header-container{
+	border-bottom: 1px solid rgb(226, 226, 226);
+padding: 15px 0px;
+}
+
+.linked-article{
+font-family: 'cheltenham', georgia, "times new roman", times, serif;
+font-size: .95rem;
+font-weight: 900;
+line-height: 1.4375rem;
+color: #666;
+}
+
+.picked-by-editor{
+	display: grid;
+    grid-template-areas:
+        "header header header"
+        "item1 item2 item3";
+    grid-gap: 20px;
+}
+
+.top-border::before{
+	background-color: #fff;
+border-bottom: 1px solid #e2e2e2;
+border-top: 2px solid #e2e2e2;
+content: '';
+display: block;
+height: 1px;
+margin-top: 0;
 }
