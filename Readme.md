@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/JbirdL86/new-york-times/tree/feature-branch)
+[Live Demo Link](https://raw.githack.com/JbirdL86/new-york-times/feature-branch/index.html)
 
 
 ## Getting Started
@@ -27,10 +27,6 @@ To get a local copy up and running follow these simple example steps.
 
 Just open your terminal and go to the directory where you want the whole folder, from that directory use the "git clone https://github.com/JbirdL86/new-york-times/tree/feature-branch" 
 and thats it.
-
-### Usage
-It actually does nothing lol
-
 
 ## Authors
 
