@@ -931,41 +931,41 @@ i > span {
   white-space: nowrap;
 }
 
-.fixed-footer-wrapper{
-	position: fixed;
-	bottom: 0;
-	background-color: rgb(51, 51, 51);
-	height: 55px;
-	width: 100%;
-	color: white;
+.fixed-footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(51, 51, 51);
+  height: 55px;
+  width: 100%;
+  color: white;
 }
 
-.fixed-container{
-	display: flex;
-    width: 100%;
-    height: 20px;
-    justify-content: space-between;
+.fixed-container {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  justify-content: space-between;
 }
 
-.footer-center{
-	margin-left: 30%;
+.footer-center {
+  margin-left: 30%;
 }
 
-.footer-right{
-	display: flex;
-	justify-content: space-between;
-    align-items: center;
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.subsribe{
-	font-family: 'franklin';
-    font-size: 11px;
-    text-transform: uppercase;
+.subsribe {
+  font-family: "franklin", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
-.arrow{
-	background-color: transparent;
-    font-size: 24px;
-	font-family: sans-serif;
-	border:0;
+.arrow {
+  background-color: transparent;
+  font-size: 24px;
+  font-family: sans-serif;
+  border: 0;
 }
