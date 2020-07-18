@@ -836,7 +836,7 @@ i > span {
 
 .header-footer {
   color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "franklin", helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -855,9 +855,9 @@ i > span {
 
 .nav-text {
   color: rgb(51, 51, 51);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "franklin", helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
   margin: 0;
@@ -874,11 +874,11 @@ i > span {
 .nav-link {
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "franklin", helvetica, arial, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 500;
   height: 23px;
   line-height: 16px;
@@ -929,7 +929,7 @@ i > span {
 
 .footer-links > a {
   color: #666;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "franklin", helvetica, arial, sans-serif;
   padding: 10px 0;
   -webkit-text-decoration: none;
   text-decoration: none;

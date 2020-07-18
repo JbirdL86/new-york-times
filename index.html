@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF8" />
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="reset.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -15,10 +15,10 @@
     <nav class="nav-wrapper">
       <div class="navbar nav-flex">
         <div class="nav-left nav-flex">
-            <button>
+            <button type="button">
                 <i class="fas fa-bars"></i>
             </button>
-            <button>
+            <button type="button">
                 <i class="fas fa-search"></i>
             </button>
         </div>
@@ -28,27 +28,27 @@
           </div>
         </div>
         <div class="nav-right nav-flex">
-          <button>SUBSCRIBE NOW</button>
-          <button>LOG IN</button>
+          <button type="button">SUBSCRIBE NOW</button>
+          <button type="button">LOG IN</button>
         </div>
       </div>
     </nav>
     <main>
         <article class="story">
             <header>
-            <div>
-            <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
-            </div>
-             <div class="wrapper">
-                <figure class="img-wrapper">
-                    <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=90&auto=webp" alt="telescope"/>
-                    <figcaption itemprop="caption description" class="caption">
-                        <span>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
-                        <span class="quote">Rick Friedman for The New York Times</span>
-                     </figcaption>
+                <div>
+                    <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
                 </div>
-            </div>
-            <div class="link-container">
+                <div class="wrapper">
+                    <figure class="img-wrapper">
+                        <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=90&auto=webp" alt="telescope"/>
+                        <figcaption class="caption">
+                            <span>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
+                            <span class="quote">Rick Friedman for The New York Times</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="link-container">
                 <div>
                     <div class="link-flex" >
                         <div>
@@ -57,7 +57,7 @@
                     </div>
                     <ul class="social-flex">
                         <li class="link-date">
-                            <time class="link-time" datetime="2014-03-17T10:46:03-04:00">March 17, 2014</time>
+                            <span >March 17, 2014</span>
                         </li>
                         <li class="link-social">
                             <div>
@@ -100,7 +100,7 @@
                                         </li>
                                         <li class="social-list-closer">
                                             <div class="social-share social-icon">
-                                                <button class="link-comments">
+                                                <button type="button" class="link-comments">
                                                     <i class="count-positioner">
                                                         <span class="positioned">316</span>
                                                     </i>
@@ -192,7 +192,7 @@
                     <div class="content-wrapper">
                         <div class="floated-wrapper">
                             <div class="floated-content">
-                                <img src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png"/>
+                                <img alt="" src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png"/>
                                 <div class="positioner1 one">
                                     <p>
                                         <span class="summary-header">THE UNIVERSE</span>
@@ -266,7 +266,7 @@
             </section>
             <figure class="media-container">
                 <div class="media-wrapper">
-                    <iframe class="story-video" src="https://www.youtube.com/embed/ZlfIVEy_YOA" title="youtube video" allowfullscreen="" frameborder="0"></iframe>
+                    <iframe class="story-video" src="https://www.youtube.com/embed/ZlfIVEy_YOA" title="youtube video" allowfullscreen=""></iframe>
                 </div>
                 <figcaption class="media-caption">
                     <span>Stanford Professor Andrei Linde celebrates physics breakthrough</span>
@@ -337,7 +337,7 @@
                 <div class="footer-content">
                     <span class="article-footer">
                         A version of this article appears in print on 
-                        <time data-testid="todays-date" class="css-10rvbm3" datetime="2014-03-18T04:00:00.000Z">March 18, 2014</time>
+                        <span>March 18, 2014</span>
                         , Section 
                         A
                         , Page 
@@ -357,7 +357,7 @@
                     <div class="social-footer">
                         <ul class="social-flex">
                             <li class="footer-button">
-                                <button label="Click to see the comments">Read 615 comments</button>
+                                <button type="button">Read 615 comments</button>
                             </li>
                             <li class="link-social">
                                 <div>
@@ -417,12 +417,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/15/science/15SCI-COMET1/15SCI-COMET1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/15/science/15SCI-COMET1/15SCI-COMET1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -431,7 +429,7 @@
                                             <h3 class="thumbnail-header">Comet NEOWISE: How to See It in Night Skies</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="July 15">July 15</time>
+                                            <span>July 15</span>
                                         </span>
                                     </div>
                                 </div>
@@ -439,12 +437,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/14/science/14SCI-MARSUAE2/merlin_174530790_2e8becee-83b9-47ac-8443-a40d71b5e759-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">Emirati Mars Mission</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/14/science/14SCI-MARSUAE2/merlin_174530790_2e8becee-83b9-47ac-8443-a40d71b5e759-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">Emirati Mars Mission</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -453,7 +449,7 @@
                                             <h3 class="thumbnail-header">How the United Arab Emirates Set Its Sights on Mars</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="6 hours ago">6h ago</time>
+                                            <span>6h ago</span>
                                         </span>
                                     </div>
                                 </div>
@@ -461,15 +457,13 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://tpc.googlesyndication.com/simgad/12921787402544754183?" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">
-                                                            <span>PAID POST:</span>
-                                                            Audemars Piguet
-                                                        </span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://tpc.googlesyndication.com/simgad/12921787402544754183?" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">
+                                                        <span>PAID POST:</span>
+                                                        Audemars Piguet
+                                                    </span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -478,7 +472,7 @@
                                             <h3 class="thumbnail-header">Step Inside a Spiraling Watch Museum in the Swiss Jura Mountains</h3>
                                         </a>
                                         <div>
-                                            <img src="https://tpc.googlesyndication.com/simgad/7430774282595300108?" style="vertical-align:bottom">
+                                            <img src="https://tpc.googlesyndication.com/simgad/7430774282595300108?" alt="ads" style="vertical-align:bottom">
                                         </div>
                                     </div>
                                 </div>
@@ -486,12 +480,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/07/science/07starliner/07starliner-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">Bill Ingalls/NASA, via Associated Press</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/07/science/07starliner/07starliner-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">Bill Ingalls/NASA, via Associated Press</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -500,7 +492,7 @@
                                             <h3 class="thumbnail-header">Scrutinizing SpaceX, NASA Overlooked Some Boeing Software Problems</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="July 7">July 7</time>
+                                            <span>July 7</span>
                                         </span>
                                     </div>
                                 </div>
@@ -508,12 +500,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/06/30/science/25SCI-BLACKHOLE/25SCI-BLACKHOLE-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">R. Hurt/IPAC/Caltech</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/06/30/science/25SCI-BLACKHOLE/25SCI-BLACKHOLE-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">R. Hurt/IPAC/Caltech</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -522,7 +512,7 @@
                                             <h3 class="thumbnail-header">Two Black Holes Colliding Not Enough? Make It Three</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="June 25">June 25</time>
+                                            <span>June 25</span>
                                         </span>
                                     </div>
                                 </div>
@@ -530,12 +520,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/06/23/science/00SCI-MARS-HELICOPTER5/00SCI-MARS-HELICOPTER5-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">JPL-Caltech/NASA</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/06/23/science/00SCI-MARS-HELICOPTER5/00SCI-MARS-HELICOPTER5-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">JPL-Caltech/NASA</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -544,7 +532,7 @@
                                             <h3 class="thumbnail-header">Mars Is About to Have Its ‘Wright Brothers Moment’</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="June 23">June 23</time>
+                                            <span>June 23</span>
                                         </span>
                                     </div>
                                 </div>
@@ -561,12 +549,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/19/magazine/19mag-talk-stone/19mag-talk-stone-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/19/magazine/19mag-talk-stone/19mag-talk-stone-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -575,7 +561,7 @@
                                             <h3 class="thumbnail-header">Comet NEOWISE: How to See It in Night Skies</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="July 15">July 15</time>
+                                            <span >July 15</span>
                                         </span>
                                     </div>
                                 </div>
@@ -583,12 +569,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/12/fashion/12MODERN-AUTISM/12MODERN-AUTISM-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/12/fashion/12MODERN-AUTISM/12MODERN-AUTISM-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -597,7 +581,7 @@
                                             <h3 class="thumbnail-header">Comet NEOWISE: How to See It in Night Skies</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="July 15">July 15</time>
+                                            <span >July 15</span>
                                         </span>
                                     </div>
                                 </div>
@@ -605,12 +589,10 @@
                                     <div class="thumbnail">
                                         <a href="https://static01.nyt.com/images/2020/07/16/science/16SOLARORBITER-loop-cover/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                                             <figure class="thumbnail-container">
-                                                <div>
-                                                    <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/14/world/14tahini/xxtahini-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
-                                                    <figcaption class="thumbnail-caption">
-                                                        <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
-                                                    </figcaption>
-                                                </div>
+                                                <img class="thumbnail-image" src="https://static01.nyt.com/images/2020/07/14/world/14tahini/xxtahini-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="sky"/>
+                                                <figcaption class="thumbnail-caption">
+                                                    <span class="thumbnail-quote">Chris Pietsch/The Register-Guard, via Associated Press</span>
+                                                </figcaption>
                                             </figure>
                                         </a>
                                     </div>
@@ -619,7 +601,7 @@
                                             <h3 class="thumbnail-header">Comet NEOWISE: How to See It in Night Skies</h3>
                                         </a>
                                         <span>
-                                            <time data-testid="todays-date" aria-label="July 15">July 15</time>
+                                            <span >July 15</span>
                                         </span>
                                     </div>
                                 </div>
@@ -689,7 +671,7 @@
         </article>
     </main>
     <nav class="footer-wrapper">
-        <h2 class="footer-top-border"></h2>
+        <div class="footer-top-border"></div>
         <div class="header-wrapper">
             <header class="footer-header">  
                 <a class="ny-times-img" href="">
@@ -705,43 +687,43 @@
                             <h3 class="nav-text">news</h3>
                             <ul class="list">
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Home Page</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Home Page</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">World</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">World</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">U.S</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">U.S</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Politics</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Politics</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Election 2020</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Election 2020</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">New York</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">New York</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Business</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Business</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Tech</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Tech</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Science</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Science</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Sports</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Sports</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Obituaries</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Obituaries</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Today’s paper</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Today’s paper</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Corrections</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Corrections</a>
                                 </li>
                             </ul>
                         </section>
@@ -749,25 +731,25 @@
                             <h3 class="nav-text">Opinion</h3>
                             <ul class="list">
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Today's Opinion</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Today's Opinion</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Op-Ed Columnists</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Op-Ed Columnists</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Editorials</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Editorials</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Op-Ed Contributors</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Op-Ed Contributors</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Letters</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Letters</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Sunday Review</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Sunday Review</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Video: Opinion</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Video: Opinion</a>
                                 </li>
                             </ul>
                         </section>
@@ -775,37 +757,37 @@
                             <h3 class="nav-text">Arts</h3>
                             <ul class="list">
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Today's Arts</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Today's Arts</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Art & Design</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Art & Design</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Books</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Books</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Dance</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Dance</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Movies</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Movies</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Music</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Music</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Pop Culture</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Pop Culture</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Business</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Business</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Television</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Television</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Theater</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Theater</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Video: Arts</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Video: Arts</a>
                                 </li>
                             </ul>
                         </section>
@@ -813,49 +795,49 @@
                             <h3 class="nav-text">Living</h3>
                             <ul class="list">
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">At Home</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">At Home</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Automobiles</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Automobiles</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Crossword</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Crossword</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Education</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Education</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Food</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Food</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Health</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Health</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Jobs</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Jobs</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Love</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Love</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Magazine</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Magazine</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Parenting</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Parenting</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Real Estate</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Real Estate</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Recipes</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Recipes</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Style</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Style</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">T Magazine</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">T Magazine</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Travel</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Travel</a>
                                 </li>
                             </ul>
                         </section>
@@ -863,43 +845,43 @@
                             <h3 class="nav-text">More</h3>
                             <ul class="list">
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Reader Center</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Reader Center</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Wirecutter</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Wirecutter</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Live Events</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Live Events</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">The Learning Network</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">The Learning Network</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Tools & Services</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Tools & Services</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Multimedia</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Multimedia</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Photography</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Photography</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Video</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Video</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Newsletters</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Newsletters</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">TimesMachine</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">TimesMachine</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">NYT Store</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">NYT Store</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Times Journeys</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Times Journeys</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Manage My Account</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Manage My Account</a>
                                 </li>
                             </ul>
                         </section>
@@ -907,37 +889,37 @@
                             <h3 class="nav-text">Subscribe</h3>
                             <ul class="list">
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Home Delivery</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Home Delivery</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Digital Subscriptions</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Digital Subscriptions</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Crossword</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Crossword</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Cooking</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Cooking</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Email Newsletters</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Email Newsletters</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Corporate Subscriptions</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Corporate Subscriptions</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Education Rate</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Education Rate</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Mobile Applications</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Mobile Applications</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Replica Edition</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Replica Edition</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">Español</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">Español</a>
                                 </li>
                                 <li class="nav-list">
-                                    <a class="nav-link href="https://www.nytimes.com/">中文网</a>
+                                    <a class="nav-link" href="https://www.nytimes.com">中文网</a>
                                 </li>
                             </ul>
                         </section>
@@ -974,8 +956,8 @@
                     <a href="http://www.tbrandstudio.com/">T Brand Studio</a>
                 </li>
                 <li class="footer-links">
-                    <a href="https://www.nytimes.com/privacy/cookie-policy#how-do-i-manage-trackers">Your Ad Choices</a><
-                        /li>
+                    <a href="https://www.nytimes.com/privacy/cookie-policy#how-do-i-manage-trackers">Your Ad Choices</a>
+                </li>
                 <li class="footer-links">
                     <a href="https://www.nytimes.com/privacy">Privacy</a>
                 </li>
