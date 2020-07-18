@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/JbirdL86/new-york-times/feature-branch/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JbirdL86/new-york-times/59bea140a126baa298287d202d442f3b4ccb2c12/index.html)
 
 
 ## Getting Started
